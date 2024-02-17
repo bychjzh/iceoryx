@@ -34,8 +34,8 @@ constexpr bool IOX_SHM_WRITE_ZEROS_ON_CREATION = true;
 constexpr uint64_t IOX_MAX_SHM_NAME_LENGTH = PATH_MAX;
 constexpr const char IOX_PATH_SEPARATORS[] = "/";
 constexpr uint64_t IOX_UDS_SOCKET_MAX_MESSAGE_SIZE = 4096;
-constexpr const char IOX_UDS_SOCKET_PATH_PREFIX[] = "./tmp/";
-constexpr const char IOX_LOCK_FILE_PATH_PREFIX[] = "./tmp/";
+constexpr const char IOX_UDS_SOCKET_PATH_PREFIX[] = "~/tmp/";
+constexpr const char IOX_LOCK_FILE_PATH_PREFIX[] = "~/tmp/";
 using IoxIpcChannelType = iox::posix::UnixDomainSocket;
 } // namespace platform
 } // namespace iox
